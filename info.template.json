@@ -1,0 +1,6 @@
+{
+    "server": "<database-server-name>.database.windows.net",
+    "database": "<Database-name>",
+    "username": "<database-username>",
+    "password": "<database-password>"
+}
