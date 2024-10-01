@@ -1,7 +1,7 @@
-
 import pymssql
 import pandas as pd
 import json
+
 
 
 def main():
@@ -9,7 +9,7 @@ def main():
 
     # Extract the SQL query and server parameters from the request body
     try:
-        with open("SQL_NoAzureFunction/info.json", "r") as file:
+        with open("info.json", "r") as file:
             data = json.load(file)
             
         query = "SELECT * FROM YourTable"
